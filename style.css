@@ -167,6 +167,10 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 
+.dados h1{
+    margin-left: 18vw;
+}
+
 .dados .timeline{
     flex: 0 0 100%;
     max-width: 100%;
@@ -182,10 +186,82 @@ body{
 
 .dados .timeline .timeline-item{
     position: relative;
-    padding-left: 1.75vw;
+    padding-left: 2vw;
     padding-bottom: 0.5vh;
 }
 
-.dados h1{
-    margin-left: 18vw;
+.dados .timeline .timeline-item .fa{
+    padding-right: 0.75vw;
+}
+
+.dados .timeline .timeline-item:last-child{
+    padding-bottom: 0vh;
+}
+
+.dados .timeline .timeline-item::before{
+    content: '';
+    width: 2px;
+    position: absolute;
+    height: 110%;
+    left: 5px;
+    top: 0;
+    background-color: red;
+}
+
+.dados .timeline .circulo{
+    position: absolute;
+    left: -2px;
+    top: -1px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container .projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+}
+.container h1{
+    margin-top: 20vh;
+    padding-left: 37vw;
+    font-weight: 600;
+}
+
+.container .projetos img{
+    width: 17vw;
+}
+
+.container .projeto p{
+    font-size: 16px;
+    padding: 2vw;
+    color: gray;
+    margin-bottom: 8vh;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.contatos .conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contatos .conteudo img{
+    width: 10vw;
 }
