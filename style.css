@@ -47,7 +47,7 @@ body{
 
 .home h2{
     font-size: 28px;
-    margin-top: -2vh;
+    margin-top: -1vh;
     margin-left: 10vw;
 }
 
@@ -79,7 +79,7 @@ body{
 
 .info p{
     border-bottom: 1px solid rgb(180, 161, 161);
-   width: 20vw;
+   width: 27vw;
    font-size: 12px;
    height: 3vh;
    font-weight: 700;
@@ -250,11 +250,11 @@ body{
 }
 
 .contatos .conteudo img{
-    width: 10vw;
+    width: 13vw;
 }
 
 .contato{
-    margin-bottom: 40vh;
+    margin-bottom: 20vh;
 }
 
 @media (max-width:760px){
